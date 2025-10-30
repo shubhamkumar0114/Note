@@ -37,7 +37,7 @@ const Pastes = () => {
           placeholder="Search.."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="input input-primary text-[1.1rem] h-10 w-full"
+          className="input input-primary bg-transparent text-[1.1rem] h-10 w-full"
         />
       </div>
       <h1 className="text-start text-[1.2rem] font-semibold mb-2">

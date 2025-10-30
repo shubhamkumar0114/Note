@@ -53,7 +53,7 @@ const Home = () => {
           placeholder="title.."
           value={title}
           onChange={(e) => setTitle(e.target.value)}
-          className="input input-primary text-[1.1rem] h-10 w-full"
+          className="input input-primary bg-transparent text-[1.1rem] h-10 w-full"
         />
 
         <button
